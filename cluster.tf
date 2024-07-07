@@ -1,4 +1,4 @@
-resource "databricks_cluster" "mycluster" {
+resource "singleNode_cluster" "mycluster" {
     num_workers = 0
     cluster_name = "mycluster_tfc"
     idempotency_token = "mycluster_tfc"
